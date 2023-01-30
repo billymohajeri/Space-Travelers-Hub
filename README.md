@@ -69,7 +69,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone
+  git clone git@github.com:billymohajeri/Space-Travelers-Hub.git
 ```
 
 ### Install

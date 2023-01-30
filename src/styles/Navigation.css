@@ -28,7 +28,23 @@
 
 .nav-item {
   font-family: 'Montserrat', sans-serif;
-  font-size: 0.813rem;
-  color: #121212;
-  letter-spacing: 1.9px;
+  font-size: 1rem;
+  color: #007bff;
+
+  /* color: #121212; */
+
+  /* letter-spacing: 1.9px; */
+}
+
+.activeLink {
+  text-decoration: underline;
+}
+
+.nonActiveLink {
+  text-decoration: none;
+}
+
+a {
+  color: unset;
+  text-decoration: inherit;
 }
