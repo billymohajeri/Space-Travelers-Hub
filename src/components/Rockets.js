@@ -4,9 +4,9 @@ import React, { useEffect } from 'react';
 import { getRockets } from '../redux/rockets/rockets';
 
 const Rockets = () => {
-  const rocketsList = useSelector((state) => state.rockets);
+//   const rocketsList = useSelector((state) => state.rockets);
   const dispatch = useDispatch();
-  console.log(rocketsList);
+  //   console.log(rocketsList);
   const state = useSelector((state) => state.rockets);
 
   useEffect(() => {
