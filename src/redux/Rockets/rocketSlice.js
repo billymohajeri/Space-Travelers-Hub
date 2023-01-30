@@ -18,4 +18,4 @@ const rocketSlice = createSlice({
   },
 });
 
-export default rocketSlice.reducer;
+export default rocketSlice;
