@@ -5,7 +5,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Todo App ](#-todo-app-)
+- [🚀 Space Travelers' Hub ](#-todo-app-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -26,7 +26,12 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 <a name="about-project"></a>
+# 🚀 Space Travelers' Hub <a name="about-project"></a>
+
+Space Travelers' Hub is a web application for a company that provides commercial and scientific space travel services. The application will allow users to:
+
+- Book rockets
+- Join selected space missions
 
 ## 🛠 Built With <a name="built-with"></a>
 
