@@ -23,3 +23,17 @@
 .rocket-description {
   font-size: 1.25rem;
 }
+
+.rocket-reserved-hide {
+  display: none;
+}
+
+.rocket-reserved-show {
+  background-color: #18a2b8;
+  color: white;
+  padding: 0 5px 0 5px;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 0.75rem;
+  margin-right: 5px;
+}
