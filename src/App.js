@@ -6,7 +6,7 @@ import MyProfile from './components/MyProfile';
 import Rockets from './components/Rockets';
 import Missions from './components/Missions';
 import Navigation from './components/Navigation';
-import { getMissions } from './Redux/missions/missions';
+import { getMissions } from './redux/missions/missions';
 
 function App() {
   const dispatch = useDispatch();
