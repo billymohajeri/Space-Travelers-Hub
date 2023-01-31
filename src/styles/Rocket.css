@@ -24,11 +24,7 @@
   font-size: 1.25rem;
 }
 
-.rocket-reserved-hide {
-  display: none;
-}
-
-.rocket-reserved-show {
+.rocket-reserved {
   background-color: #18a2b8;
   color: white;
   padding: 0 5px 0 5px;

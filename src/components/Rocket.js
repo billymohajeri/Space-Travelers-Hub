@@ -26,26 +26,29 @@ const Rocket = ({ rocket }) => {
         <div className="rocket-details">
           <span className="rocket-name">{name}</span>
           <p className="rocket-description">
-            <span
-              className={
-                rocket.reserved
-                  ? 'rocket-reserved-show'
-                  : 'rocket-reserved-hide'
-              }
-            >
-              Reserved
-            </span>
+            {rocket.reserved && (
+              <span className="rocket-reserved">Reserved</span>
+            )}
             {description}
           </p>
-
-          <Button
-            variant={rocket.reserved ? 'outline-secondary' : 'primary'}
-            type="button"
-            className="reserve"
-            onClick={reserveRocketHandler}
-          >
-            {rocket.reserved ? 'Cancel Reservation' : 'Reserve Rocket'}
-          </Button>
+          {!rocket.reserved && (
+            <Button
+              variant="primary"
+              type="button"
+              onClick={reserveRocketHandler}
+            >
+              Reserve Rocket
+            </Button>
+          )}
+          {rocket.reserved && (
+            <Button
+              variant="outline-secondary"
+              type="button"
+              onClick={reserveRocketHandler}
+            >
+              Cancel Reservation
+            </Button>
+          )}
         </div>
       </div>
     </div>
