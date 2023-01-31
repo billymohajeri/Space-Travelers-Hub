@@ -1,0 +1,30 @@
+table {
+  width: 90%;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+.mission_name {
+  /* styles for the mission name td */
+}
+
+.mission_description {
+  width: 50%;
+  justify-items: center;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 1%;
+}
+
+thead th {
+  background-color: lightgray;
+  padding: 10px;
+  text-align: left;
+}
+
+tbody tr:nth-child(even) {
+  background-color: lightgray;
+}
