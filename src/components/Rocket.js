@@ -3,11 +3,19 @@ import PropTypes from 'prop-types';
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/Rocket.css';
+import { useDispatch } from 'react-redux';
+import { reserveRocket } from '../redux/Rockets/rocketSlice';
 
-function Rocket({ rocket }) {
+const Rocket = ({ rocket }) => {
+  const dispatch = useDispatch();
+  const { id } = rocket;
   const name = rocket.rocket_name;
   const { description } = rocket;
   const flickrImages = rocket.flickr_images[0];
+
+  const reserveRocketHandler = () => {
+    dispatch(reserveRocket(id));
+  };
 
   return (
     <div className="rocket-container">
@@ -18,14 +26,19 @@ function Rocket({ rocket }) {
         <div className="rocket-details">
           <span className="rocket-name">{name}</span>
           <span className="rocket-description">{description}</span>
-          <Button variant="primary" type="button" className="reserve">
+          <Button
+            variant="primary"
+            type="button"
+            className="reserve"
+            onClick={reserveRocketHandler}
+          >
             Reserve Rocket
           </Button>
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default Rocket;
 
