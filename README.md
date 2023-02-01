@@ -42,9 +42,9 @@ Space Travelers' Hub is a web application for a company that provides commercial
 
 <div align="center">
 
-  <img src="./src/App-1.png" alt="logo" width="650"  height="auto" />
-  <img src="./src/App-2.png" alt="logo" width="650"  height="auto" />
-  <img src="./src/App-3.png" alt="logo" width="650"  height="auto" />
+  <img src="./src/Assets/App-1.png" alt="app-screenshot" width="650"  height="auto" />
+  <img src="./src/Assets/App-2.png" alt="app-screenshot" width="650"  height="auto" />
+  <img src="./src/Assets/App-3.png" alt="app-screenshot" width="650"  height="auto" />
     
   <br/>
 </div>
