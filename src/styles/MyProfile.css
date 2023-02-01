@@ -1,0 +1,10 @@
+.my-profile-thead {
+  border: none;
+  background-color: unset;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+td {
+  background-color: unset;
+}
