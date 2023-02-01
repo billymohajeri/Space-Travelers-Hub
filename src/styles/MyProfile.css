@@ -1,16 +1,25 @@
+.profile {
+  display: flex;
+}
+
+.profile table {
+  width: 40%;
+  margin-top: 20px;
+}
+
+.profile table td {
+  border: 1px solid rgb(205, 205, 205);
+  background-color: rgb(253, 253, 253);
+}
+
+.profile table tr {
+  height: 60px;
+}
+
 .my-profile-thead {
   width: 40%;
   border: none;
   background-color: unset;
   font-size: 2rem;
   font-weight: bold;
-}
-
-.profile-table {
-  width: 50%;
-}
-
-td {
-  width: 50%;
-  background-color: unset;
 }

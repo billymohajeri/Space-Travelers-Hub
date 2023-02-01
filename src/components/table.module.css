@@ -12,7 +12,7 @@ table {
 }
 
 .mission_name {
-  /* styles for the mission name td */
+  width: 20%;
 }
 
 .mission_description {
@@ -25,6 +25,7 @@ th,
 td {
   border: 1px solid black;
   padding: 1%;
+  width: fit-content;
 }
 
 thead th {
@@ -34,7 +35,7 @@ thead th {
 }
 
 .joinmission_Btn {
-  width: 130px;
+  width: 80%;
   border: 1px solid rgb(119, 119, 119);
   background-color: #fff;
   height: 30px;
@@ -45,28 +46,31 @@ tbody tr:nth-child(even) {
 }
 
 .leavemission_Btn {
-  width: 135px;
+  width: 80%;
   border: 1px solid rgb(252, 15, 15);
   color: rgb(252, 24, 24);
   height: 30px;
+  background-color: #fff;
 }
 
 .activemember_btn {
-  width: 100%;
+  width: 80%;
   color: rgb(255, 255, 255);
   background-color: #18a2b8;
   border: 1px solid rgb(219, 219, 219);
-  border-radius: 10px;
+  border-radius: 5px;
   font-size: 12px;
   font-weight: 500;
+  height: 20px;
 }
 
 .notAmember_btn {
-  width: 100%;
+  width: 80%;
   color: #fff;
   background-color: rgb(93, 93, 93);
   border: 1px solid rgb(96, 96, 96);
-  border-radius: 10px;
+  border-radius: 5px;
   font-size: 12px;
   font-weight: 500;
+  height: 20px;
 }
