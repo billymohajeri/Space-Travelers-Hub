@@ -1,8 +1,10 @@
-import React, { useSelector } from 'react-redux';
+import React, { useDispatch, useSelector } from 'react-redux';
+import { joinMission, leaveMission } from '../redux/missions/missions';
 import classes from './table.module.css';
 
 const Missions = () => {
   const missions = useSelector((state) => state.missions.list);
+  const dispatch = useDispatch();
   return (
     <div>
       <table className={classes.table}>
@@ -22,10 +24,28 @@ const Missions = () => {
                 {mission.description}
               </td>
               <td className={classes.mission_status}>
-                {mission.reserved ? 'Active Member' : 'Not a member'}
+                <button type="button" className={classes.statusButton}>
+                  {mission.reserved ? 'Active Member' : 'Not a member'}
+                </button>
               </td>
               <td className={classes.mission_join_leave}>
-                {mission.reserved ? 'Leave Mission' : 'Join Mission'}
+                {mission.reserved ? (
+                  <button
+                    onClick={() => dispatch(leaveMission(mission.mission_id))}
+                    className={classes.leavemission_Btn}
+                    type="button"
+                  >
+                    Leave Mission
+                  </button>
+                ) : (
+                  <button
+                    onClick={() => dispatch(joinMission(mission.mission_id))}
+                    className={classes.joinmission_Btn}
+                    type="button"
+                  >
+                    Join Mission
+                  </button>
+                )}
               </td>
             </tr>
           ))}
