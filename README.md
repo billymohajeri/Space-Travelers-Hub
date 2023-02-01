@@ -1,5 +1,12 @@
 <a name="readme-top"></a>
 
+<div align="center">
+
+  <img src="./src/Assets/planet.png" alt="logo" width="250"  height="auto" />
+  <br/>
+
+</div>
+
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -33,15 +40,33 @@ Space Travelers' Hub is a web application for a company that provides commercial
 - Book rockets
 - Join selected space missions
 
+<div align="center">
+
+  <img src="./src/App-1.png" alt="logo" width="650"  height="auto" />
+  <img src="./src/App-2.png" alt="logo" width="650"  height="auto" />
+  <img src="./src/App-3.png" alt="logo" width="650"  height="auto" />
+    
+  <br/>
+</div>
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-- React.js
+- HTML
+- CSS
+- JavaScript
+- React
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
+
+- Book rockets
+- Cancel booked rockets
+- Join space missions
+- Cancel joined space missions
+- Display joined space missions and booked rockets
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -49,7 +74,7 @@ Space Travelers' Hub is a web application for a company that provides commercial
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Not deployed yet...]()
+- Not deployed yet...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

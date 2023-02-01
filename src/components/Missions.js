@@ -1,56 +1,52 @@
 import React, { useDispatch, useSelector } from 'react-redux';
+import Button from 'react-bootstrap/Button';
 import { joinMission, leaveMission } from '../redux/missions/missions';
-import classes from './table.module.css';
+import '../styles/Missions.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Missions = () => {
   const missions = useSelector((state) => state.missions.list);
   const dispatch = useDispatch();
   return (
     <div>
-      <table className={classes.table}>
+      <table className="missions-table">
         <thead>
           <tr>
-            <th>Mission</th>
-            <th>Description</th>
-            <th>Status</th>
-            <th> </th>
+            <th className="missions-table-th">Mission</th>
+            <th className="missions-table-th">Description</th>
+            <th className="missions-table-th">Status</th>
+            <th className="missions-table-th"> </th>
           </tr>
         </thead>
-        <tbody>
+        <tbody className="missions-tbody">
           {missions.map((mission) => (
             <tr key={mission.mission_id}>
-              <td className={classes.mission_name}>{mission.mission_name}</td>
-              <td className={classes.mission_description}>
-                {mission.description}
-              </td>
-              <td className={classes.mission_status}>
+              <td className="mission-name">{mission.mission_name}</td>
+              <td className="mission-description">{mission.description}</td>
+              <td className="mission-status">
                 {mission.reserved ? (
-                  <button type="button" className={classes.activemember_btn}>
+                  <Button variant="primary" className="active-member-btn">
                     Active Member
-                  </button>
+                  </Button>
                 ) : (
-                  <button type="button" className={classes.notAmember_btn}>
-                    NOT A MEMBER
-                  </button>
+                  <Button variant="secondary">NOT A MEMBER</Button>
                 )}
               </td>
-              <td className={classes.mission_join_leave}>
+              <td className="mission-join-leave">
                 {mission.reserved ? (
-                  <button
+                  <Button
+                    variant="outline-danger"
                     onClick={() => dispatch(leaveMission(mission.mission_id))}
-                    className={classes.leavemission_Btn}
-                    type="button"
                   >
                     Leave Mission
-                  </button>
+                  </Button>
                 ) : (
-                  <button
+                  <Button
+                    variant="outline-dark"
                     onClick={() => dispatch(joinMission(mission.mission_id))}
-                    className={classes.joinmission_Btn}
-                    type="button"
                   >
                     Join Mission
-                  </button>
+                  </Button>
                 )}
               </td>
             </tr>

@@ -13,7 +13,7 @@
 
 .img-container img {
   width: 350px;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 
 .rocket-name {
@@ -32,4 +32,9 @@
   border-radius: 5px;
   font-size: 0.75rem;
   margin-right: 5px;
+}
+
+.rocket-container {
+  width: 90%;
+  margin: auto;
 }
