@@ -4,9 +4,8 @@ import '../styles/MyProfile.css';
 const MyProfile = () => {
   const rocketsList = useSelector((state) => state.rockets);
   const myReserveRockets = rocketsList.filter((rockets) => rockets.reserved);
-
   return (
-    <table>
+    <table className="profile-table">
       <thead>
         <th className="my-profile-thead">My Rockets</th>
       </thead>

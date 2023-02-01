@@ -24,9 +24,15 @@ const Missions = () => {
                 {mission.description}
               </td>
               <td className={classes.mission_status}>
-                <button type="button" className={classes.statusButton}>
-                  {mission.reserved ? 'Active Member' : 'Not a member'}
-                </button>
+                {mission.reserved ? (
+                  <button type="button" className={classes.activemember_btn}>
+                    Active Member
+                  </button>
+                ) : (
+                  <button type="button" className={classes.notAmember_btn}>
+                    NOT A MEMBER
+                  </button>
+                )}
               </td>
               <td className={classes.mission_join_leave}>
                 {mission.reserved ? (

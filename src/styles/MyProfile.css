@@ -1,10 +1,16 @@
 .my-profile-thead {
+  width: 40%;
   border: none;
   background-color: unset;
   font-size: 2rem;
   font-weight: bold;
 }
 
+.profile-table {
+  width: 50%;
+}
+
 td {
+  width: 50%;
   background-color: unset;
 }
