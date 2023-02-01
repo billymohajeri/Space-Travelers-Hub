@@ -6,7 +6,6 @@ import { getRockets } from '../redux/Rockets/rocketSlice';
 const Rockets = () => {
   const rocketsList = useSelector((state) => state.rockets);
   const dispatch = useDispatch();
-  //   const state = useSelector((state) => state.rockets);
 
   useEffect(() => {
     if (rocketsList.length === 0) {
