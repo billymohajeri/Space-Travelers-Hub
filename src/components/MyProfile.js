@@ -5,7 +5,6 @@ const MyProfile = () => {
   const rocketsList = useSelector((state) => state.rockets);
   const myReserveRockets = rocketsList.filter((rockets) => rockets.reserved);
 
-
   const missionsList = useSelector((state) => state.missions.list);
   const reservedMissions = missionsList.filter((mission) => mission.reserved);
   return (
