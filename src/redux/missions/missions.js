@@ -41,6 +41,18 @@ const missionSlice = createSlice({
       });
       return { ...state, list: [...updatedList] };
     });
+    builder.addCase(leaveMission, (state, action) => {
+      const updatedList = state.list.map((item) => {
+        if (item.mission_id === action.payload) {
+          return {
+            ...item,
+            reserved: false,
+          };
+        }
+        return item;
+      });
+      return { ...state, list: [...updatedList] };
+    });
   },
 });
 
