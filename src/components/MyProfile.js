@@ -5,11 +5,13 @@ const MyProfile = () => {
   const rocketsList = useSelector((state) => state.rockets);
   const myReserveRockets = rocketsList.filter((rockets) => rockets.reserved);
 
+
   const missionsList = useSelector((state) => state.missions.list);
   const reservedMissions = missionsList.filter((mission) => mission.reserved);
   return (
     <div className="my-profile-container">
       <table className="my-profile-missions-table">
+
         <thead>
           <th className="my-profile-thead">My Missions</th>
         </thead>
