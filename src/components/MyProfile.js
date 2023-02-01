@@ -19,4 +19,5 @@ const MyProfile = () => {
     </table>
   );
 };
+
 export default MyProfile;
