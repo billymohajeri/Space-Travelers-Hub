@@ -1,0 +1,40 @@
+.rocket-details-container {
+  margin: 1rem;
+  display: flex;
+  gap: 20px;
+}
+
+.rocket-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.img-container img {
+  width: 350px;
+  border-radius: 5px;
+}
+
+.rocket-name {
+  font-size: 1.75rem;
+}
+
+.rocket-description {
+  font-size: 1.25rem;
+}
+
+.rocket-reserved {
+  background-color: #18a2b8;
+  color: white;
+  padding: 0 5px 0 5px;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 0.75rem;
+  margin-right: 5px;
+}
+
+.rocket-container {
+  width: 90%;
+  margin: auto;
+}

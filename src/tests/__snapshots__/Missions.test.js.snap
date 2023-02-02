@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`My Connected React-Redux Component renders correctly 1`] = `
+<div>
+  <table
+    className="missions-table"
+  >
+    <thead>
+      <tr>
+        <th
+          className="missions-table-th"
+        >
+          Mission
+        </th>
+        <th
+          className="missions-table-th"
+        >
+          Description
+        </th>
+        <th
+          className="missions-table-th"
+        >
+          Status
+        </th>
+        <th
+          className="missions-table-th"
+        >
+           
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      className="missions-tbody"
+    />
+  </table>
+</div>
+`;

@@ -1,0 +1,15 @@
+.my-profile-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  width: 90%;
+  margin: auto;
+}
+
+.my-profile-thead {
+  width: 90vh;
+  border: none;
+  padding-left: 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
