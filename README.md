@@ -29,8 +29,6 @@
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
-<!-- PROJECT DESCRIPTION -->
-
 # 🚀 Space Travelers' Hub <a name="about-project"></a>
 
 Space Travelers' Hub is a web application for a company that provides commercial and scientific space travel services. The application will allow users to:
