@@ -178,8 +178,6 @@ I would like to thank all code reviewers for making this project better.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
-
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE/MIT.md) licensed.
