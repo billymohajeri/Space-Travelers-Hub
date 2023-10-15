@@ -54,8 +54,6 @@ Space Travelers' Hub is a web application for a company that provides commercial
 - JavaScript
 - React
 
-<!-- Features -->
-
 ### Key Features <a name="key-features"></a>
 
 - Book rockets
