@@ -14,7 +14,6 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -61,12 +60,6 @@ Space Travelers' Hub is a web application for a company that provides commercial
 - Join space missions
 - Cancel joined space missions
 - Display joined space missions and booked rockets
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- Not deployed yet...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
