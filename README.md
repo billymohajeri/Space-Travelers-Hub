@@ -69,7 +69,7 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need [Node.js](https://nodejs.org/en/) installed on your machine.
+To run this project you need [Node.js](https://nodejs.org/en/) installed on your machine.
 
 ### Setup
 
@@ -129,8 +129,6 @@ You can deploy this project using:
 - LinkedIn: [Pray Eddy SHIMWA](https://www.linkedin.com/in/pray-eddy-shimwa-18a6751b6)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
